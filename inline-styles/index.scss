@@ -1,0 +1,29 @@
+@if global-variable-exists(breakpoints) == false {
+    @warn "Переменная $breakpoints не существует. Будет заданно значение по умолчанию.";
+
+    $breakpoints: (
+        xxs: 375px,
+        xs: 414px,
+        sm: 568px,
+        md: 820px,
+        lg: 1024px,
+        xl: 1280px,
+        xxl: 1600px,
+    ) !default;
+
+} 
+
+@if global-variable-exists(grid-gap) == false {
+    @warn "Переменная $grid-gap не существует (отступ по горизонтали для grid'а). Будет заданно значение по умолчанию (26px).";
+    $grid-gap: 26px;
+} 
+
+@if global-variable-exists(grid-gap-bottom) == false {
+    @warn "Переменная $grid-gap-bottom не существует (отступ по вертикали для grid'а). Будет заданно значение по умолчанию (20px).";
+    $grid-gap-bottom: 20px;
+} 
+
+@import "grid-inline";  /* .grid  .col-x-y */
+@import "order";  /* `.order-{breakpoint}-{value}` */
+@import "display";  /* `.display-{breakpoint}-{value}` */
+@import "response-img.scss";  /* .response-img (-xs, -sm, -md, -lg, -xl,) */
