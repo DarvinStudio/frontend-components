@@ -1,0 +1,8 @@
+{
+  "name": "frontend-components",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/DarvinStudio/frontend-components.git",
+  "author": "Andy <andreydmitrievich666@gmail.com>",
+  "license": "MIT"
+}
