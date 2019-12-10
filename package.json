@@ -1,8 +1,22 @@
 {
-  "name": "frontend-components",
+  "name": "@darvins/frontend-components",
   "version": "0.0.1",
   "main": "index.js",
-  "repository": "https://github.com/DarvinStudio/frontend-components.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarvinStudio/frontend-components.git"
+  },
   "author": "Andy <andreydmitrievich666@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/DarvinStudio/frontend-components/issues"
+  },
+  "homepage": "https://github.com/DarvinStudio/frontend-components#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js"
+  ]
 }
