@@ -1,4 +1,4 @@
-import { throttle } from '../utils/decorators';
+import { throttle } from './decorators';
 
 /**
  * Компонент для отслеживания размеров при ресайзе и добавления функций по ресайзу
