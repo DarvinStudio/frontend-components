@@ -36,7 +36,10 @@ const lazyImageComponent = (() => {
                 self.observer.observe(lazyImage);
             });
         } else {
-            console.warn('IntersectionObserver not found. Possibly fall back to a more compatible method here. ');
+            console.warn('IntersectionObserver not found. Fallback used.');
+            elements.forEach((lazyImage) => {
+                lazyImage.src = lazyImage.dataset.src;
+            });
         }
     };
 
