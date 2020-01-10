@@ -23,7 +23,7 @@ const requestAnimationFrameComponent = (() => {
         });
     };
 
-    function init() {
+    function init(timestamp) {
         let deltaTime = timestamp - self.time;
         self.time = timestamp;
         self.callbacks.forEach((element) => {
