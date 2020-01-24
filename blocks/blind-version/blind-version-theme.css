@@ -1,0 +1,204 @@
+@charset "UTF-8";
+html.blind, body.blind {
+  /* размер шрифта */
+  /* размер интервала между буквами */
+  /* типы шрифтов */
+}
+
+html.blind h1, html.blind h2, html.blind h3, html.blind h4, html.blind h5, html.blind h6,
+html.blind .h1, html.blind .h2, html.blind .h3, html.blind .h4, html.blind .h5, html.blind .h6, body.blind h1, body.blind h2, body.blind h3, body.blind h4, body.blind h5, body.blind h6,
+body.blind .h1, body.blind .h2, body.blind .h3, body.blind .h4, body.blind .h5, body.blind .h6 {
+  color: inherit;
+}
+
+html.blind-font-size-small, body.blind-font-size-small {
+  font-size: 14px;
+}
+
+html.blind-font-size-large, body.blind-font-size-large {
+  font-size: 23px;
+}
+
+html.blind-images-disable, body.blind-images-disable {
+  /* стили скрывающие картинки писать тут */
+}
+
+html.blind-spacing-normal, body.blind-spacing-normal {
+  letter-spacing: 0;
+}
+
+html.blind-spacing-md, body.blind-spacing-md {
+  letter-spacing: 2px;
+}
+
+html.blind-spacing-lg, body.blind-spacing-lg {
+  letter-spacing: 5px;
+}
+
+html.blind-font-arial, body.blind-font-arial {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+html.blind-font-times, body.blind-font-times {
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+html.blind-theme-black a, body.blind-theme-black a {
+  color: #FFFFFF;
+}
+
+html.blind-theme-black hr, body.blind-theme-black hr {
+  background: #FFFFFF;
+}
+
+html.blind-theme-black body, body.blind-theme-black body {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+html.blind-theme-black .c-settings, body.blind-theme-black .c-settings {
+  color: #FFFFFF;
+}
+
+html.blind-theme-black .c-settings .c-settings__nav, body.blind-theme-black .c-settings .c-settings__nav {
+  background: #2c2c2c;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2c2c2c), to(black));
+  background: linear-gradient(to bottom, #2c2c2c 0%, black 100%);
+}
+
+html.blind-theme-black .c-settings .c-settings__nav-label, body.blind-theme-black .c-settings .c-settings__nav-label {
+  text-shadow: none;
+}
+
+html.blind-theme-black .c-settings .c-settings__font-size .c-settings__btn:before, body.blind-theme-black .c-settings .c-settings__font-size .c-settings__btn:before {
+  border-color: #FFFFFF transparent transparent transparent;
+}
+
+html.blind-theme-black .c-settings .c-settings__font-size .c-settings__btn.is-active, html.blind-theme-black .c-settings .c-settings__font-size .c-settings__btn:hover, body.blind-theme-black .c-settings .c-settings__font-size .c-settings__btn.is-active, body.blind-theme-black .c-settings .c-settings__font-size .c-settings__btn:hover {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+html.blind-theme-black .c-settings .c-settings__theme .c-settings__btn, body.blind-theme-black .c-settings .c-settings__theme .c-settings__btn {
+  color: #000000;
+  border-color: #000000;
+}
+
+html.blind-theme-black .c-settings .c-settings__theme .c-settings__btn.c-settings__theme-black, body.blind-theme-black .c-settings .c-settings__theme .c-settings__btn.c-settings__theme-black {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+html.blind-theme-black .c-settings .c-settings__theme .c-settings__btn.c-settings__theme-black:after, body.blind-theme-black .c-settings .c-settings__theme .c-settings__btn.c-settings__theme-black:after {
+  display: none;
+}
+
+html.blind-theme-black .c-settings .c-settings__theme .c-settings__btn.c-settings__theme-black.is-active, html.blind-theme-black .c-settings .c-settings__theme .c-settings__btn.c-settings__theme-black:hover, body.blind-theme-black .c-settings .c-settings__theme .c-settings__btn.c-settings__theme-black.is-active, body.blind-theme-black .c-settings .c-settings__theme .c-settings__btn.c-settings__theme-black:hover {
+  border-color: #FFFFFF;
+}
+
+html.blind-theme-black .c-settings .c-settings__theme .c-settings__btn.c-settings__theme-black.is-active:before, html.blind-theme-black .c-settings .c-settings__theme .c-settings__btn.c-settings__theme-black:hover:before, body.blind-theme-black .c-settings .c-settings__theme .c-settings__btn.c-settings__theme-black.is-active:before, body.blind-theme-black .c-settings .c-settings__theme .c-settings__btn.c-settings__theme-black:hover:before {
+  border-color: #FFFFFF transparent transparent transparent;
+}
+
+html.blind-theme-black .c-settings .c-settings__theme .c-settings__btn.c-settings__theme-black.is-active:after, html.blind-theme-black .c-settings .c-settings__theme .c-settings__btn.c-settings__theme-black:hover:after, body.blind-theme-black .c-settings .c-settings__theme .c-settings__btn.c-settings__theme-black.is-active:after, body.blind-theme-black .c-settings .c-settings__theme .c-settings__btn.c-settings__theme-black:hover:after {
+  display: block;
+  border-color: #000000 transparent transparent transparent;
+}
+
+html.blind-theme-black .c-settings .c-settings__more a:after, body.blind-theme-black .c-settings .c-settings__more a:after {
+  border-color: #FFFFFF transparent transparent transparent;
+}
+
+html.blind-theme-black .c-settings .c-settings__dropdown, body.blind-theme-black .c-settings .c-settings__dropdown {
+  background: #000000;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+html.blind-theme-black .c-settings .c-settings__dropdown-font .c-settings__btn, body.blind-theme-black .c-settings .c-settings__dropdown-font .c-settings__btn {
+  border-color: #FFFFFF;
+}
+
+html.blind-theme-black .c-settings .c-settings__dropdown-font .c-settings__btn.is-active, body.blind-theme-black .c-settings .c-settings__dropdown-font .c-settings__btn.is-active {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+html.blind-theme-black .c-settings .c-settings__dropdown-footer .c-settings__btn, body.blind-theme-black .c-settings .c-settings__dropdown-footer .c-settings__btn {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+html.blind-theme-black .c-settings .c-settings__dropdown-footer .c-settings__btn span, body.blind-theme-black .c-settings .c-settings__dropdown-footer .c-settings__btn span {
+  border-color: #000000;
+}
+
+html.blind-theme-blue hr, body.blind-theme-blue hr {
+  background: #042b62;
+}
+
+html.blind-theme-blue body, body.blind-theme-blue body {
+  background: #9dd1ff;
+  color: #042b62;
+}
+
+html.blind-theme-blue .c-settings, body.blind-theme-blue .c-settings {
+  color: #063462;
+}
+
+html.blind-theme-blue .c-settings .c-settings__nav, body.blind-theme-blue .c-settings .c-settings__nav {
+  background: #89bde7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#89bde7), to(#62a4d9));
+  background: linear-gradient(to bottom, #89bde7 0%, #62a4d9 100%);
+}
+
+html.blind-theme-blue .c-settings .c-settings__nav-label, body.blind-theme-blue .c-settings .c-settings__nav-label {
+  text-shadow: none;
+}
+
+html.blind-theme-blue .c-settings .c-settings__font-size .c-settings__btn:before, body.blind-theme-blue .c-settings .c-settings__font-size .c-settings__btn:before {
+  border-color: #0d325e transparent transparent transparent;
+}
+
+html.blind-theme-blue .c-settings .c-settings__font-size .c-settings__btn.is-active, html.blind-theme-blue .c-settings .c-settings__font-size .c-settings__btn:hover, body.blind-theme-blue .c-settings .c-settings__font-size .c-settings__btn.is-active, body.blind-theme-blue .c-settings .c-settings__font-size .c-settings__btn:hover {
+  background: #0d325e;
+  color: #79b6e7;
+}
+
+html.blind-theme-blue .c-settings .c-settings__search:before, body.blind-theme-blue .c-settings .c-settings__search:before {
+  background: #9dd1ff;
+  border: none;
+  width: 1px;
+}
+
+html.blind-theme-blue .c-settings .c-settings__more:before, body.blind-theme-blue .c-settings .c-settings__more:before {
+  background: #9dd1ff;
+  border: none;
+  width: 1px;
+}
+
+html.blind-theme-blue .c-settings .c-settings__dropdown, body.blind-theme-blue .c-settings .c-settings__dropdown {
+  background: #9dd1ff;
+  color: #042b62;
+  border-color: #042b62;
+}
+
+html.blind-theme-blue .c-settings .c-settings__dropdown-font .c-settings__btn, body.blind-theme-blue .c-settings .c-settings__dropdown-font .c-settings__btn {
+  border-color: #042b62;
+}
+
+html.blind-theme-blue .c-settings .c-settings__dropdown-font .c-settings__btn.is-active, body.blind-theme-blue .c-settings .c-settings__dropdown-font .c-settings__btn.is-active {
+  background: #042b62;
+  color: #9dd1ff;
+}
+
+html.blind-theme-blue .c-settings .c-settings__dropdown-footer .c-settings__btn, body.blind-theme-blue .c-settings .c-settings__dropdown-footer .c-settings__btn {
+  background: #042b62;
+  color: #9dd1ff;
+}
+
+html.blind-theme-blue .c-settings .c-settings__dropdown-footer .c-settings__btn span, body.blind-theme-blue .c-settings .c-settings__dropdown-footer .c-settings__btn span {
+  border-color: #9dd1ff;
+}
+/*# sourceMappingURL=blind-version-theme.css.map */

@@ -18,7 +18,7 @@
 └───polyfills
 │   └───polyfills.js
 │
-└───inline-styles
+└───utils
 │   └── common.js
 │   └── decorators.js
 │   └── dom-events.js
