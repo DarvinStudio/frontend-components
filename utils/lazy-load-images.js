@@ -39,6 +39,7 @@ const lazyImageComponent = (() => {
         } else {
             console.warn('IntersectionObserver not found. Fallback used.');
             elements.forEach((lazyImage) => {
+                lazyImage.classList.add('is-show');
                 lazyImage.src = lazyImage.dataset.src;
             });
         }
