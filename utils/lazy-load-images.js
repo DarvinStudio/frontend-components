@@ -22,6 +22,7 @@ const lazyImageComponent = (() => {
                     lazyImage.src = lazyImage.dataset.src;
                     // lazyImage.srcset = lazyImage.dataset.srcset;
                     // lazyImage.classList.remove(self.defaultClass);
+                    lazyImage.classList.add('is-show');
                     self.observer.unobserve(lazyImage);
                 }
             });
