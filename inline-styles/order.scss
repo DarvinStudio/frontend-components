@@ -1,11 +1,11 @@
 // $breakpoints - global variable
+@for $i from 1 through $total {
+    .order-#{$i} { order: #{$i}; }
+}
+
 @each $breakpoint in map-keys($breakpoints) {
     $total: 10;
 
-    @for $i from 1 through $total {
-        .order-#{$i} { order: #{$i}; }
-    }
-  
     @media ( min-width: #{map-get($breakpoints, $breakpoint)} ) {
         @for $i from 1 through $total {
             .order-#{$breakpoint}-#{$i} { order: #{$i}; }
