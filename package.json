@@ -1,22 +1,22 @@
 {
-  "name": "@darvins/frontend",
-  "version": "0.0.11",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DarvinStudio/frontend-components.git"
-  },
-  "author": "Andy <andreydmitrievich666@gmail.com>",
-  "license": "MIT",
-  "description": "",
-  "bugs": {
-    "url": "https://github.com/DarvinStudio/frontend-components/issues"
-  },
-  "homepage": "https://github.com/DarvinStudio/frontend-components#readme",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "js"
-  ]
+    "name": "@darvins/frontend",
+    "version": "0.0.12",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DarvinStudio/frontend-components.git"
+    },
+    "author": "Andy <andreydmitrievich666@gmail.com>",
+    "license": "MIT",
+    "description": "",
+    "bugs": {
+        "url": "https://github.com/DarvinStudio/frontend-components/issues"
+    },
+    "homepage": "https://github.com/DarvinStudio/frontend-components#readme",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "js"
+    ]
 }
