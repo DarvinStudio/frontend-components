@@ -3,7 +3,7 @@
  * @param {string} src
  * @returns {Promise} Promise(script object)
  */
-onst loadScript = (src) => {
+const loadScript = (src) => {
     const scripts = [...document.scripts].filter(script => script.src === src);
     return new Promise((resolve, reject) => {
         if (scripts.length) {
